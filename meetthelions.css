@@ -1,0 +1,132 @@
+/*this section contains the styling for the meet the lions section. I will be using the mobile first approach to design */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    opacity: .9;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*The styling starts here*/
+
+.meet-ourlions
+{
+    margin: 100px 40px 100px 40px;
+}
+.meet-our-lions-header
+{
+  margin: 0 0 20px 0;
+    text-align: center;
+}
+.our-lion
+{
+ background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url('2D-art3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    width: 100%;
+    position: relative;
+    margin: 20px 0 20px 0;
+}
+.our-lion-heading
+{
+    color: #ffcb04;
+    position: absolute;
+    bottom: 14%;
+    left: 7%;
+}
+.our-lion-desc
+{
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+    left: 7%;
+    
+}
+
+
+/*Responsive design now*/
+
+@media screen and (min-width: 48.125em )
+{
+   .meet-ourlions
+    {
+        margin: 150px 100px 150px 100px;
+    }
+    .meet-our-lions-header h2
+    {
+        font-size: 50px;
+        font-weight: bolder;
+        margin: 50px 0 50px 0;
+    }
+    .our-lion-heading
+    {
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 25px;
+    }
+    .our-lion-desc
+    {
+        font-size: 22px;
+        font-weight: bold;
+        opacity: 1;
+    }
+    
+    .meet-ourlions article
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 25px;
+    } 
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+/*this stylesheet contains all the styling for the about me mock section. the approach will be mobile first approach*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    opacity: .9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*The styling now begins here*/
+
+.who-i-am
+{
+    margin: 60px 40px;
+}
+.me-intro
+{
+    font-size: 16px;
+    opacity: 1;
+    color: #ffcb04;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.me h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.me-details
+{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.me-logos
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.me-logos img
+{
+    max-width: 100%;
+    align-content: center;
+}
+
+.me-clients-projects
+{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.me-clients-projects h2
+{
+    font-size: 32px;
+    text-align: center;
+    margin: 23px 0 10px 0;
+}
+.me-clients-projects p
+{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+
+
+
+/*responsive design now*/
+
+@media screen and (min-width: 48.125em )
+{
+    .who-i-am
+    {
+        margin: 60px 70px;
+    }
+    .me-intro
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 50px 0 30px 0;
+        opacity: 1;
+    }
+    .me h2
+    {
+        font-size: 50px;
+        font-weight: bolder;
+        margin: 30px 0 50px 0;
+    }
+    .me-details
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 50px 0 50px 0;
+    }
+    .me-logos
+    {
+        margin: 59px 85px;
+        display: flex;
+    }
+    .me-logos img
+    {
+        flex: 1;
+        
+    }
+    .me-clients-projects
+    {
+        display: flex;
+        margin: 60px 70px;
+    }
+    .me-clients-projects h2
+    {
+        font-size: 60px;
+        font-weight: bolder;
+        margin: 50px 0 30px 0;
+    }
+    .me-clients-projects p
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 30px 0 50px 0;
+    }
+     .me-clients-projects .left
+    {
+        flex: 1;
+    }
+    .me-clients-projects .middle
+    {
+        flex: 1;
+    }
+    .me-clients-projects .right
+    {
+        flex: 1;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

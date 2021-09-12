@@ -1,0 +1,200 @@
+/*This csss file styles completely the top part which includes, logo, navbar links, background photo, and headings. was designed using the desktop first approach. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*landing page starts here now */
+
+#landing
+{
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url('images.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.logo
+{
+    width: 120px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.landing-text
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 240px;
+}
+.landing-text h2
+{
+    margin: auto;
+    font-size: 65px;
+}
+.landing-text h2 span
+{
+    font-size: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffcb05;
+}
+/*the two buttons at the screen */
+.landing-btn
+{
+    margin: 70px auto 0;
+    
+}
+.landing-btn a
+{
+  text-decoration: none;
+    font-size: 20px;
+    display: inline-block;  
+}
+.padding
+{
+    width: 150px;
+    margin: 0 10px;
+    padding: 10px;
+    color: #000;
+    background: #ffcb05;
+    border-radius: 8px;
+    font-size: 22px;
+}
+.single
+{
+    margin: 0 10px;   
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+}
+.single:hover
+{  
+    color: #ffcb05;
+}
+.single i
+{
+    margin-left: 6px;
+}
+
+
+/*the side navigation bar now */
+#sideNav
+{
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    right: -350px;
+    top: 0;
+    background: #000;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li
+{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+/*now the menu btn*/
+#menubtn
+{
+   width: 50px;
+    height: 50px;
+    background: #000;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img
+{
+    width: 20px;
+    margin-top: 15px;
+}
+
+/*media query for the top part start here */
+
+@media screen and (max-width: 48.125em )
+{
+    .logo
+    {
+        width: 95px;
+    }
+    .landing-text h2
+{
+    font-size: 30px;
+}
+    .landing-text h2 span
+{
+    font-size: 30px;
+}
+  
+    .landing-btn a
+    {
+        display: block;
+        margin: 20px auto;
+    }
+    
+    #sideNav
+{
+    width: 170px;
+    height: 100vh;
+    position: fixed;
+    right: -350px;
+    top: 0;
+    background: #000;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li
+{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a
+{
+    
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+    
+  #menubtn
+{
+   width: 44px;
+    height: 44px;
+    
+}
+#menubtn img
+{
+    width: 18px;
+    margin-top: 15px;
+}  
+    
+    
+}
+
+/*media query for the top part end here*/

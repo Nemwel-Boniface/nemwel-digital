@@ -1,0 +1,229 @@
+/*This stylesheet contains the styling for the sample works. The design approach is mobile first approach*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    opacity: .7;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*the styling for the section begins here*/
+
+.our-works
+{
+    width: 100%;
+    background: #333333;
+}
+.web-design, .design
+{
+    margin: 0 30px 0 30px;
+    padding: 50px 0 0 0;
+}
+.web-design img
+{
+    max-width: 100%;
+}
+.our-works-img
+{
+  max-width: 100%;
+    margin: 0 0 35px 0;
+}
+.our-works-title
+{
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    color: #ffcb04;
+    font-size: 16px;
+    opacity: 1;
+}
+.our-works-heading
+{
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+.our-works-desc
+{
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.our-works-author
+{
+    color: #fff;
+    opacity: 1;
+    margin: 0 0 70px 0;
+}
+
+.our-works-links
+{
+    margin: 40px 40px 50px 40px;
+    display: block;
+}
+.our-works-projects
+{
+    padding: 10px;
+    background: #ffcb04;
+    border-radius: 9px;
+    color: #000;
+}
+.our-works-portfolio
+{
+   color: #fff; 
+   display: block; 
+    margin: 20px 0 0 0;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+.our-works-portfolio:hover
+{
+   color: #ffcb04;   
+}
+
+
+
+
+/*responsive design now*/
+
+@media screen and (min-width: 48.125em )
+{
+    
+    
+    .sample-works
+    {
+        width: 100%;
+    }
+    .web-design 
+    {
+        display: flex;
+        margin: 0 150px 60px 150px;
+        padding-top: 120px;
+    }
+    .web-design img
+    {
+        padding-right: 30px;
+    }
+    
+    .our-works-.right title
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 25px 0 25px 0;
+    }
+    .our-works-.right heading
+    {
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 25px 0 25px 0;
+    }
+    .our-works-.right desc
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 25px 0 25px 0;
+    }
+    .our-works-.right author
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 25px 0 25px 0;
+    }
+    
+    
+    
+    .our-works-title
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 50px 0 50px 0;
+    }
+    .our-works-heading
+    {
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 50px 0 50px 0;
+    }
+    .our-works-desc
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 50px 0 50px 0;
+    }
+    .our-works-author
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 50px 0 50px 0;
+    }
+    .design
+    {
+        display: grid;
+        margin: 0 150px 60px 150px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+    
+    .our-works-links
+    {
+      padding-bottom: 70px;
+        text-align: center;
+    }
+    .our-works-projects
+    {
+       width: 220px;
+       padding: 11px;
+       color: #000;
+       background: #ffcb05;
+       border-radius: 8px;
+       font-size: 22px;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 50px 30px 50px 0;
+    }
+    .our-works-portfolio
+    {
+        display: inline;
+        font-size: 22px;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 50px 0 50px 0;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,206 @@
+/*This stylesheet contains the styling for the client testimonials section. I will be using the mobile first approach to design*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    opacity: .7;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*The styling for the section begins here now*/
+
+.client-testimonials
+{
+    margin: 100px 30px 100px 30px;
+}
+.client-testimonials-heading h2
+{
+    margin: 0 0 60px 0;
+}
+.client-testimonials-left
+{
+    margin: 0 30px 0 0;
+}
+.client-testimonials-left .float-left
+{
+    background: rgba(167,169,172, .1);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.client-testimonials-left .float-left h2
+{
+    
+    font-size: 20px;
+}
+.client-testimonials-left .float-left .coloured
+{
+    color: #ffcb04;
+}
+.client-testimonials-left .right p
+{
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.client-testimonials-right
+{
+    margin: 0 30px 0 0;
+}
+.client-testimonials-right .float-right
+{
+    background: rgba(167,169,172, .1);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.client-testimonials-right .float-right h2
+{
+    
+    font-size: 20px;
+}
+.client-testimonials-right .float-right .coloured
+{
+    color: #ffcb04;
+}
+.client-testimonials-right .left p
+{
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/*Responsive design now*/
+
+@media screen and ( min-width: 48.12em )
+{
+    .client-testimonials
+    {
+        margin: 120px 120px 120px 120px;
+    }
+    .client-testimonials-heading h2
+    {
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    /*the testimonial that floats right*/
+    
+    .client-testimonials-left
+    {
+        margin: 30px 0 40px 0;
+        display: flex;
+        margin: 30px 0 40px 0;
+    }
+    .client-testimonials-left .float-left
+    {
+        flex: 1;
+        margin: 0 20px 0 0;
+    }
+    .client-testimonials-left .float-left h2
+    {
+        font-size: 30px;
+    }
+    .client-testimonials-left .right
+    {
+        flex: 2;
+    }
+    .client-testimonials-left .right p
+    {
+        font-size: 21px;
+    }
+    
+    
+    
+    /*the testimonial that floats right*/
+    
+    .client-testimonials-right
+    {
+        margin: 30px 0 40px 0;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .client-testimonials-right .float-right
+    {
+        flex: 1;
+        margin: 0 0 0 20px;
+    }
+    .client-testimonials-right .float-right h2
+    {
+        font-size: 30px;
+    }
+    .client-testimonials-right .left
+    {
+        flex: 2;
+    }
+    .client-testimonials-right .left p
+    {
+        font-size: 21px;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

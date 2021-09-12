@@ -1,0 +1,138 @@
+/*This stylesheet contains the styling for the what we offer section. I will be using the mobile first approach to design*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    opacity: .7;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Actual styling starts here*/
+
+.what-we-offer
+{
+    margin: 120px 30px 120px 30px;
+}
+.what-we-offer-heading
+{
+    margin: 0 0 50px 0;
+}
+.what-we-offer-heading h2
+{
+    text-align: center;
+}
+.what-we-offer-packages
+{
+    margin: 50px 0 50px 0;
+}
+.packages
+{
+    margin: 0 0 20px 0;
+}
+.packages-header
+{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    background: #ffcb04;
+}
+.packages ul
+{
+    background: rgba(167,169,172, .2);
+    width: 100%;
+}
+.packages ul li
+{
+    list-style: none;
+    padding: 20px 0 16px 20px;
+}
+.packages ul li i
+{
+    color: #ffcb04;
+    font-size: 20px;
+    padding: 0 12px 0 0;
+}
+
+
+/*Responsive Design now*/
+
+@media screen and (min-width: 48.125em )
+{
+    .what-we-offer
+    {
+        margin: 100px 120px 100px 120px;
+    }
+    .what-we-offer-packages
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .what-we-offer-heading h2
+    {
+        font-size: 50px;
+    }
+    .packages-header
+    {
+        font-size: 30px;
+    }
+    .packages ul li
+    {
+        font-size: 21px;
+        padding: 20px 0 16px 20px;
+    }
+    .packages ul li i
+    {
+        font-size: 24px;
+        padding: 0 12px 0 0;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

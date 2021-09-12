@@ -1,0 +1,156 @@
+/*This stylesheet contains the styling for the fairtrade principles section. I will be using the mobile first approach to design*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    opacity: .7;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*The styling now begins*/
+
+.fair-trade-principles
+{
+    margin: 50px 10px 50px 10px;
+}
+.fair-trade-principles-img
+{
+    max-width: 100%;
+}
+.fair-trade-principles .right
+{
+    margin: 20px 30px 20px 30px;
+}
+.fair-trade-principles-title
+{
+    color: #ffcb04;
+    margin: 0 0 20px 0;
+    opacity: 1;
+}
+.fair-trade-principles-heading
+{
+    font-size: 26px;
+    margin: 0 0 20px 0;
+}
+.fair-trade-principles-desc
+{
+    margin: 0 0 20px 0;
+    padding-bottom: 20px;
+}
+.fair-trade-principles-link
+{
+    padding: 10px;
+    background: #ffcb04;
+    border-radius: 9px;
+    width: 160px;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    text-decoration: none;
+}
+
+
+/*Responsive design now*/
+
+@media screen and (min-width: 48.125em )
+{
+    .fair-trade-principles
+    {
+        margin: 150px 130px 150px 130px;
+        display: flex;
+        /*display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;*/
+    }
+    .fair-trade-principles .left
+    {
+        flex: 1;
+        margin-top: 15px;
+    }
+    .fair-trade-principles .right
+    {
+        flex: 1;
+        margin-top: 0;
+    }
+    .fair-trade-principles-title
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 0 0 15px 0;
+        opacity: 1;
+    }
+    .fair-trade-principles-heading
+    {
+        font-size: 38px;
+        font-weight: bolder;
+        margin: 0 0 15px 0;
+    }
+    .fair-trade-principles-desc
+    {
+        font-size: 21px;
+        font-weight: bold;
+        margin: 0 0 15px 0;
+    }
+    .fair-trade-principles-link
+    {
+       font-size: 21px;
+        font-weight: bold;
+        margin: 0 0 20px 0;
+        width: 200px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

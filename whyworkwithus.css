@@ -1,0 +1,177 @@
+/*This stylesheet contains all the styling for the why work with us section. Youube video styling is also here I will use a mobile first approach to designing this part*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+p
+{
+    font-size: 16px;
+    opacity: .7;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Why work with us section*/
+
+.work-with-us
+{
+    margin: 60px 40px;
+}
+.work-with-us-title
+{
+    color: #ffcb04;
+    margin: 0 0 20px 0;
+    opacity: 1;
+}
+.work-with-us-heading
+{
+    font-size: 26px;
+    margin: 0 0 20px 0;
+}
+.work-with-us-desc
+{
+    margin: 0 0 20px 0;
+}
+.work-with-us-links
+{
+    padding: 10px;
+    background: #ffcb04;
+    border-radius: 9px;
+    width: 160px;
+    font-size: 16px;
+    margin: 0 0 25px 0;
+    text-decoration: none;
+}
+.work-with-us-img
+{
+    margin: 26px 0 30px 0;
+    max-width: 100%;
+}
+.work-with-us-reasons
+{
+    margin: 40px 0 50px 0;
+}
+
+/*Youtube video styling*/
+.youtube-video
+{
+    width: 100%;
+    margin: 50px 0 60px 0;
+}
+.video iframe 
+{
+    width: 100%;
+}
+
+
+
+
+/*responsive design now*/
+@media screen and (min-width: 48.125em )
+{
+    .work-with-us
+    {
+        margin: 60px 150px;
+    }
+    .work-with-us-intro 
+    {
+        display: flex;
+    }
+    .work-with-us-intro  .left
+    {
+        margin-right: 40px;
+    }
+    .work-with-us-title
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 50px 0 50px 0;
+        opacity: 1;
+    }
+    .work-with-us-heading
+    {
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 50px 0 50px 0;
+    }
+    .work-with-us-desc
+    {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 50px 0 50px 0;
+    }
+    .work-with-us-links
+    {
+        font-size: 22px;
+        width: 200px;
+        font-weight: bold;
+        margin: 50px 0 50px 0;
+    }
+    .work-with-us-reasons
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+
+    /*youtube video styling now*/
+    .youtube-video
+    {
+       width: 100%;
+       margin: 50px 0 60px 0;
+    }
+    .video iframe 
+    {
+       width: 100%;
+        height: 60vh;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
